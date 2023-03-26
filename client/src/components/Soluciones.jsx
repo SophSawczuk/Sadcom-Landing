@@ -16,18 +16,13 @@ export default function Soluciones() {
                     <thead style={{height: '10vh'}}>
                         <tr className="text-center" style={{'background-color': '#682AB7', 'color': 'white', "border-radius": "10px"}}> 
                             <th style={{"padding-bottom": '2vh', 'font-size': '1.5rem'}}>Características</th>
-                            <th style={{"padding-bottom": '2vh', 'font-size': '1.5rem'}}>Versión gratuita</th>
-                            <th style={{"padding-bottom": '2vh', 'font-size': '1.5rem'}}>Versión de pago</th>
+                            <th style={{"padding-bottom": '2vh', 'font-size': '1.5rem'}}>Sadcom 3</th>
+                            <th style={{"padding-bottom": '2vh', 'font-size': '1.5rem'}}>Sadcom 2</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td >Requiere instalación</td>
-                            <td className="text-center" >Si</td>
-                            <td className="text-center" >No</td>
-                        </tr>
-                        <tr>
-                            <td>Emisión de comprobantes no fiscales</td>
+                            <td>Personas (Clientes, proveedores y empleados)</td>
                             <td className="text-center" >Si</td>
                             <td className="text-center" >Si</td>
                         </tr>
@@ -42,99 +37,142 @@ export default function Soluciones() {
                             <td className="text-center" >Si</td>
                         </tr>
                         <tr>
-                            <td>Cambio de precios</td>
-                            <td className="text-center" >Si</td>
-                            <td className="text-center" >Si</td>
-                        </tr>
-                        <tr>
-                            <td>Base de datos en la nube</td>
-                            <td className="text-center" >No</td>
-                            <td className="text-center" >Si</td>
-                        </tr>
-                        <tr>
-                            <td>Conección en red de múltiples usuarios</td>
-                            <td className="text-center" >No</td>
-                            <td className="text-center" >Si</td>
-                        </tr>
-                        <tr>
-                            <td>Módulos proveedores</td>
-                            <td className="text-center" >No</td>
-                            <td className="text-center" >Si</td>
-                        </tr>
-                        <tr>
-                            <td>Módulo clientes</td>
-                            <td className="text-center" >No</td>
-                            <td className="text-center" >Si</td>
-                        </tr>
-                        <tr>
-                            <td>Cuenta corriente</td>
-                            <td className="text-center" >No</td>
-                            <td className="text-center" >Si</td>
-                        </tr>
-                        <tr>
-                            <td>Facturación</td>
-                            <td className="text-center" >No</td>
-                            <td className="text-center" >Si</td>
-                        </tr>
-                        <tr>
                             <td>Lista de precios</td>
-                            <td className="text-center" >No</td>
+                            <td className="text-center" >Si</td>
                             <td className="text-center" >Si</td>
                         </tr>
                         <tr>
                             <td>Reportes</td>
-                            <td className="text-center" >No</td>
+                            <td className="text-center" >Si</td>
                             <td className="text-center" >Si</td>
                         </tr>
                         <tr>
                             <td>Módulo compras</td>
-                            <td className="text-center" >No</td>
+                            <td className="text-center" >Si</td>
                             <td className="text-center" >Si</td>
                         </tr>
+                        <tr>
+                            <td>Módulo usuarios</td>
+                            <td className="text-center" >Si</td>
+                            <td className="text-center" >Si</td>
+                        </tr>
+                        <tr>
+                            <td>Importación de artículos desde Excel</td>
+                            <td className="text-center" >Si</td>
+                            <td className="text-center" >Si</td>
+                        </tr>
+                        <tr>
+                            <td>Cambios de precios masivos</td>
+                            <td className="text-center" >Si</td>
+                            <td className="text-center" >Si</td>
+                        </tr>
+                        <tr>
+                            <td>Impresión A4 pdf</td>
+                            <td className="text-center" >Si</td>
+                            <td className="text-center" >Si</td>
+                        </tr>
+                        <tr>
+                            <td>Impresión formato ticket</td>
+                            <td className="text-center" >Si</td>
+                            <td className="text-center" >Si</td>
+                        </tr>
+                        <tr>
+                            <td>Tu cliente escanea un código QR y obtiene la factura al instante en su celular</td>
+                            <td className="text-center" >Si (Estamos trabajando en eso)</td>
+                            <td className="text-center" >No</td>
+                        </tr>
+                        <tr>
+                            <td>Base de datos en la nube (sus datos nunca se perderán)</td>
+                            <td className="text-center" >Si</td>
+                            <td className="text-center" >No</td>
+                        </tr>
+                        <tr>
+                            <td>Buscador intuitivo y dinámico</td>
+                            <td className="text-center" >Si</td>
+                            <td className="text-center" >No</td>
+                        </tr>
+                        <tr>
+                            <td>Múltiples depósitos de stock</td>
+                            <td className="text-center" >Si</td>
+                            <td className="text-center" >No</td>
+                        </tr>
+                        <tr>
+                            <td>Asociación de múltiples códigos de barras a un artículo</td>
+                            <td className="text-center" >Si</td>
+                            <td className="text-center" >No</td>
+                        </tr>
+                        <tr>
+                            <td>Personalización de colores, fondos de pantalla y tamaño de letra</td>
+                            <td className="text-center" >Si</td>
+                            <td className="text-center" >No</td>
+                        </tr>
+                        <tr>
+                            <td>Envíos de documento por correo</td>
+                            <td className="text-center" >Si (Próximamente)</td>
+                            <td className="text-center" >No</td>
+                        </tr>
+                        <tr>
+                            <td>Vinculación con tienda en línea</td>
+                            <td className="text-center" >Si (Estamos trabajando en eso)</td>
+                            <td className="text-center" >No</td>
+                        </tr>
+                        
                     </tbody>
                 </Table>
             </div>
 
             <div className={style.ThirdBlock}>
                 <Card  style={{ width: '16rem', "box-shadow": '4px 4px 10px #535353', "margin-right": '5vw', "margin-bottom": "5vh", "border-radius": "10px"}} className="text-center">
-                    <Card.Header style={{ "background-color": '#682AB7',  "color": "white", "font-size": '1.3em', "border-top-left-radius": "10px", "border-top-right-radius": "10px", height: '60px', "padding-top": "15px"  }}><b>Versión gratuita</b></Card.Header>
+                    <Card.Header style={{ "background-color": '#787878',  "color": "white", "font-size": '1.3em', "border-top-left-radius": "10px", "border-top-right-radius": "10px", height: '60px', "padding-top": "15px"  }}><b>Plan Basic</b></Card.Header>
                     <Card.Body>
                         <Card.Text>
-                            <p>$0</p>
-                            <br/>
-                            <br/>
-                            <br/>
-                            <br/>
-                            <br/>
-                            <br/>
+                            <p>1 usuario</p> 
+                            <p>300 ventas /mes</p>
+                            <p><b>$6.000 /mes</b></p>
+                            <p>Excedente por venta: <b>5% por venta</b> (a partir de la venta 301)</p>
+                          
+                        </Card.Text>
+                        <Button style={{ "background-color": '#787878', "color": "white", "border-color": "#682AB7" }}><b>Obtener</b></Button>
+                    </Card.Body>
+                </Card>
+                <Card  style={{ width: '16rem', "box-shadow": '4px 4px 10px #535353', "margin-right": '5vw', "margin-bottom": "5vh", "border-radius": "10px"}} className="text-center">
+                    <Card.Header style={{ "background-color": '#682AB7',  "color": "white", "font-size": '1.3em', "border-top-left-radius": "10px", "border-top-right-radius": "10px", height: '60px', "padding-top": "15px"  }}><b>Plan Estándar</b></Card.Header>
+                    <Card.Body>
+                        <Card.Text>
+                            <p>2 usuarios</p>
+                            <p>500 ventas /mes</p> 
+                            <p><b>$8.000 /mes</b></p>
+                            <p>Excedente por venta: <b>5% por venta</b> (a partir de la venta 501)</p>
+                          
                         </Card.Text>
                         <Button style={{ "background-color": '#682AB7', "color": "white", "border-color": "#682AB7" }}><b>Obtener</b></Button>
                     </Card.Body>
                 </Card>
                 <Card  style={{ width: '16rem', "box-shadow": '4px 4px 10px #535353', "margin-right": '5vw', "margin-bottom": "5vh", "border-radius": "10px"}} className="text-center">
-                    <Card.Header style={{ "background-color": '#682AB7',  "color": "white", "font-size": '1.3em', "border-top-left-radius": "10px", "border-top-right-radius": "10px", height: '60px', "padding-top": "15px"  }}><b>Versión de pago</b></Card.Header>
+                    <Card.Header style={{ "background-color": '#682AB7',  "color": "white", "font-size": '1.3em', "border-top-left-radius": "10px", "border-top-right-radius": "10px", height: '60px', "padding-top": "15px"  }}><b>Plan Ultra</b></Card.Header>
                     <Card.Body>
                         <Card.Text>
-                            <p>Uso base del software</p>
-                            <p>+</p>
-                            <p>Un módulo específico a elección</p>
-                            <p>$$$ <b>mensuales</b></p>
-                        </Card.Text>
-                        <Button style={{ "background-color": '#682AB7', "color": "white", "border-color": "#682AB7", 'margin-top': '20px' }}><b>Obtener</b></Button>
-                    </Card.Body>
-                </Card>
-                <Card  style={{ width: '16rem', "box-shadow": '4px 4px 10px #535353', "margin-right": '5vw', "margin-bottom": "5vh", "border-radius": "10px"}} className="text-center">
-                    <Card.Header style={{ "background-color": '#682AB7',  "color": "white", "font-size": '1.3em', "border-top-left-radius": "10px", "border-top-right-radius": "10px", height: '60px', "padding-top": "15px"  }}><b>Versión de pago</b></Card.Header>
-                    <Card.Body>
-                        <Card.Text>
-                            <p>Uso base del software</p>
-                            <p>+</p>
-                            <p>Un módulo específico a elección</p>
-                            <p>Precio <b>anual con descuentos varios</b></p>
+                            <p>5 usuarios</p>
+                            <p>600 ventas /mes</p>
+                            <p><b>$10.000 /mes</b></p>
+                            <p>Excedente por venta: <b>5% por venta</b> (a partir de la venta 601)</p>
                         </Card.Text>
                         <Button style={{ "background-color": '#682AB7', "color": "white", "border-color": "#682AB7" }}><b>Obtener</b></Button>
                     </Card.Body>
                 </Card>
+                <Card  style={{ width: '16rem', "box-shadow": '4px 4px 10px #EEBF59', "margin-right": '5vw', "margin-bottom": "5vh", "border-radius": "10px"}} className="text-center">
+                    <Card.Header style={{ "background-color": '#DE9B0C',  "color": "white", "font-size": '1.3em', "border-top-left-radius": "10px", "border-top-right-radius": "10px", height: '60px', "padding-top": "15px"  }}><b>Plan Premium</b></Card.Header>
+                    <Card.Body>
+                        <Card.Text>
+                            <p>Usuarios ilimitados</p>
+                            <p>800 ventas /mes</p>
+                            <p><b>$15.000 /mes</b></p>
+                            <p>Excedente por venta: <b>5% por venta</b> (a partir de la venta 801)</p>
+                        </Card.Text>
+                        <Button style={{ "background-color": '#DE9B0C', "color": "white", "border-color": "#DE9B0C" }}><b>Obtener</b></Button>
+                    </Card.Body>
+                </Card>
+                
             </div>
         </div>
         

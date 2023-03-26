@@ -1,0 +1,22 @@
+.Container {
+    height: 110vh;
+    width: 100%;
+    padding: 5vh 5vw 5vh 8vw;
+    background-color: #1B1448;
+    color: #c953ff;
+    
+}
+
+.Container h4 {
+    text-align: center;
+    text-shadow: -4px 4px #060531;
+}
+
+.Imagenes {
+    display:inline-block;
+}
+
+.Imagenes img {
+    width: 40vw;
+    padding: 5vh 5vw 0 5vw;
+}

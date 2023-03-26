@@ -31,7 +31,7 @@ export default function Contacto() {
 
     function handleSubmit(e) {
         e.preventDefault()
-        if(errors.name === "Se requiere un nombre" || errors.name === "El nombre debe tener al menos 4 caracteres" || errors.mail === "Se requiere un mail" || errors.mail === "Ingrese un email válido" || errors.message === "Ingrese un mensaje con más de 50 caracteres") {
+        if(errors.name === "Se requiere un nombre" || errors.name === "El nombre debe tener al menos 4 caracteres" || errors.mail === "Se requiere un email" || errors.mail === "Ingrese un email válido" || errors.message === "Ingrese un mensaje con más de 50 caracteres") {
             Swal.fire({
                 icon: 'error',
                 title: 'Oops...',
@@ -72,7 +72,7 @@ export default function Contacto() {
         }
 
         if(!input.mail) {
-            errors.mail = "Se requiere un mail"
+            errors.mail = "Se requiere un email"
         } else if (!input.mail.includes("@")) {
             errors.mail = "Ingrese un email válido"
         }

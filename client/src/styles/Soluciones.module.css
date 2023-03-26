@@ -23,7 +23,7 @@
 
 .ThirdBlock {
     display: flex;
-    padding: 10vh 0 10vh 16vw;
+    padding: 10vh 0 10vh 5vw;
 }
 
 @media screen and (max-width: 600px){

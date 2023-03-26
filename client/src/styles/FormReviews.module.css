@@ -1,0 +1,12 @@
+.FirstBlock {
+    color: black;
+    padding: 5vh 4vw 5vh 5vw;
+    width: 47vw;
+}
+
+.FirstBlock hr {
+    height: 6px;
+    width: 20%;
+    border-top: 6px solid #8A16C1;
+    opacity: 100;
+}

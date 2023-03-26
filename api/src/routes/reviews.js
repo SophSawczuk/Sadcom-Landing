@@ -13,9 +13,9 @@ router.get("/", (req, res) => {
     }
 })
 router.post("/", (req, res) => {
-    let { name, email, review } = req.body
+    let { name, email, review, business, date } = req.body
     try {
-        return ctrl.postReviews(name, email, review)
+        return ctrl.postReviews(name, email, review, business, date)
             .then(() => {
                 return res.send("Review created")
             })

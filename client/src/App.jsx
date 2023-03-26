@@ -6,6 +6,7 @@ import Soluciones from './components/Soluciones';
 import Nosotros from './components/Nosotros';
 import Contacto from './components/Contacto';
 import Review from './components/Review';
+import FormReviews from './components/FormReviews';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/us" element={<Nosotros/>}/>
         <Route path="/contact" element={<Contacto/>}/>
         <Route path="/review" element={<Review/>}/>
+        <Route path="/formreview" element={<FormReviews/>}/>
       </Routes>
     </>
   )

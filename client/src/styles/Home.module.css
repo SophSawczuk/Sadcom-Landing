@@ -6,8 +6,9 @@
 }
 
 .FirstDescription {
-    width: 40vw;
-    margin: 20vh 3vw 0 7vw;
+    width: 55vw;
+    margin: 5vh 0 0 5vw;
+   
 }
 
 .FirstDescription h1 {
@@ -17,6 +18,8 @@
 .FirstDescription h2 {
     color: #c953ff;
     text-shadow: -4px 4px #060531;
+    font-size: 1.5em;
+    cursor: pointer;
 }
 
 .FirstDescription h2 :hover {
@@ -24,12 +27,12 @@
 }
 
 .FirstDescription div {
-    width: 30vw;
+    width: 40vw;
     /* background-color: #c704bd; */
 }
 
 .FirstVideo {
-    margin: 20vh 7vw 0 3vw;
+    margin: 20vh 5vw 0 3vw;
     
 }
 
@@ -122,7 +125,7 @@
 }
 
 .FifthBlock h4 {
-    padding-top: 25vh;
+    padding-top: 30vh;
     text-align: center;
 }
 
@@ -136,7 +139,7 @@
 
 .FifthDescription p {
     width: 65vw;
-    margin: 4vh 0 2vh 0;
+    margin: 4vh 0 2vh 2vw;
 }
 
 .SoyUnDiv {
@@ -145,6 +148,10 @@
 
 .SoyUnDiv p {
     margin-bottom: 0;
+}
+
+.Card {
+    padding-bottom: 15vh;
 }
 
 @media screen and (max-width: 600px){
@@ -204,5 +211,12 @@
     .Link{
         margin-left: 12vw;
     } 
+    .FifthBlock h4 {
+        padding-top: 30vh;
+    } 
+    .SoyOtroDiv {
+        margin-left: 2vh;
+    }
+
 }
 

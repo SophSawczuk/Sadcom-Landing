@@ -8,24 +8,27 @@ module.exports = (sequelize) => {
       primaryKey: true,
     },
     name: {
-      type:DataTypes.STRING,
+      type: DataTypes.STRING,
       allowNull: false,
     },
     email:{
-        type:DataTypes.STRING,
-        allowNull: false
+      type: DataTypes.STRING,
+      allowNull: false
     },
     review:{
-        type:DataTypes.STRING,
-        allowNull: false
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+    business: {
+      type: DataTypes.STRING,
+      allowNull: false
     },
     status:{
-      type:DataTypes.BOOLEAN,
+      type: DataTypes.BOOLEAN,
       defaultValue: false,
-      
     },
   },
-  {
+  /* {
     timestamps: false
-  });
+  } */);
 };

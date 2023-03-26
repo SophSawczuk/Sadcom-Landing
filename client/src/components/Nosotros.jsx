@@ -89,13 +89,13 @@ export default function Nosotros() {
                         </div>
                         <br/>
                 </Card>
-                <div>
+                {/* <div>
                     <Card style={{width: "80vw", "margin-left": "10vw", "margin-top": '8vh'}}  border="danger">
                         <p style={{ "padding": "5vh 5vw 5vh 5vw"}}><i>Esta versión gratuita la podemos lograr gracias a que este gran equipo ha aceptado trabajar de forma gratuita en una etapa inicial. Jóvenes que con esfuerzo y sacrificio estudiaron y se formaron renunciando a mucho para poder dar una mano a cada emprendedor.
                             Si está en tu poder ayudarnos en este proyecto, escribinos, cualquier ayuda es bien recibida.
                         </i></p>
                     </Card>
-                </div>
+                </div> */}
                 <br/>
             </div>
         </div>
