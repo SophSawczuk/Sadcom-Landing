@@ -1,5 +1,4 @@
 import Form from 'react-bootstrap/Form';
-import { validate } from 'uuid';
 import { useState } from "react";
 import Button from 'react-bootstrap/Button';
 import { postReview } from '../redux/actions';
